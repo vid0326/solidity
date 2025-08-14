@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incrCount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/Counter.sol": "Counter"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/Counter.sol": {
+			"keccak256": "0xa66aaea01af206b7b403d3b11dae6ba151fd95f7725e969c9614580d0c3de17a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://241eacd3ba1d9ee70094a28a8ab09cb409d8a4c973a5a43801fa4a6e426955c1",
+				"dweb:/ipfs/Qma2DLFNWXeyf3muvPgvk5YRh4tRmb2Tck48k3eJE6Ubam"
+			]
+		}
+	},
+	"version": 1
+}
