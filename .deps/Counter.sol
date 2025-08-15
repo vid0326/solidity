@@ -3,11 +3,14 @@
 pragma solidity >=0.4.22 <0.9.0;
 
 contract Counter{
-    uint count;
-    function getCount() public view returns(uint){
-        return count;
-    }
+    uint  public count;
+    // function getCount() public view returns(uint){
+    //     return count;
+    
+    // } if we declare the uint variable as public then we do not need to require to create get fn
+
+    
     function incrCount() public{
-        count=count+1;
+        count++;
     }
 }
